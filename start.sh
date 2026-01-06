@@ -27,5 +27,5 @@ else
     DOMAIN="http://$SUBDOMAIN.surge.sh"
 fi
 surge . $DOMAIN
-rm game.html
-rm wasm.html
+rm game.zip
+rm wasm.zip
