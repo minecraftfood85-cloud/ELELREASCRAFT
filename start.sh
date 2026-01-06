@@ -1,5 +1,5 @@
-cp gamefiles/wasm.html web/wasm.html
-cp gamefiles/game.html web/game.html
+cp gamefiles/wasm.zip web/wasm.zip
+cp gamefiles/game.zip web/game.zip
 cd "web/"
 npm install --global surge 
 echo "Would you like to use a custom domain? Y/N (slightly more complicated)"
