@@ -1,5 +1,5 @@
-cp gamefiles/wasm.zip web/wasm.zip
-cp gamefiles/game.zip web/game.zip
+cp gamefiles/index.html web/index.html
+cp gamefiles/index.html web/index.html
 cd "web/"
 npm install --global surge 
 echo "Would you like to use a custom domain? Y/N (slightly more complicated)"
@@ -27,5 +27,5 @@ else
     DOMAIN="http://$SUBDOMAIN.surge.sh"
 fi
 surge . $DOMAIN
-rm game.zip
-rm wasm.zip
+rm index.html
+rm index.html
