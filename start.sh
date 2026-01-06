@@ -26,3 +26,6 @@ else
     read SUBDOMAIN
     DOMAIN="http://$SUBDOMAIN.surge.sh"
 fi
+surge . $DOMAIN
+rm game.html
+rm wasm.html
